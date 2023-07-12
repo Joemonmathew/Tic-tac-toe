@@ -1,0 +1,12 @@
+.auth_login{
+    display:flex;
+    flex-direction:column;
+    gap:60px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    width:1000px;
+    height:600px;
+    align-items:center;
+    justify-content: center;
+    
+}
