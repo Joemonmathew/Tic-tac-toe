@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./Home.css";
 // import Home from "./Pages/Home";
 // import Transaction from "./Pages/Transaction";
-import Auth from "./components/Auth";
+// import Auth from "./components/Auth";
 import Home from "./Home";
 
 
@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/" element={<Auth />} />
-        <Route path="/home" element={<Home />} />
+        {/* <Route path="/" element={<Auth />} /> */}
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
